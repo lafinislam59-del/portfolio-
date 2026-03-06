@@ -3,59 +3,200 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Huzaifa Islam | Portfolio</title>
+    <title>Huzaifa Islam | Cybersecurity Specialist | Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #f1f5f9; }
+        .hero-gradient { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); }
+    </style>
 </head>
-<body class="bg-slate-50 font-sans">
+<body class="bg-slate-50">
 
     <nav class="p-6 flex justify-between items-center bg-white shadow-sm sticky top-0 z-50">
-        <div class="text-2xl font-bold text-slate-800">🛡️ IAC</div>
-        <div class="space-x-6 text-slate-600">
-            <a href="#about" class="hover:text-blue-600">About</a>
-            <a href="#contact" class="hover:text-blue-600">Contact</a>
+        <div class="text-2xl font-bold text-slate-800">🛡️ Huzaifa Islam</div>
+        <div class="space-x-8 text-slate-600 font-medium">
+            <a href="#about" class="hover:text-blue-600 transition">About</a>
+            <a href="#skills" class="hover:text-blue-600 transition">Skills</a>
+            <a href="#projects" class="hover:text-blue-600 transition">Projects</a>
+            <a href="#experience" class="hover:text-blue-600 transition">Experience</a>
+            <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
         </div>
     </nav>
 
-    <section class="py-20 px-6 text-center">
-        <img src="profile.jpg" alt="Huzaifa" class="w-40 h-40 rounded-full mx-auto border-4 border-teal-500 mb-6 object-cover">
-        <p class="text-teal-600 font-medium mb-2 border border-teal-200 inline-block px-4 py-1 rounded-full text-sm">Cybersecurity Enthusiast</p>
-        <h1 class="text-5xl font-extrabold text-slate-900 mb-4 uppercase">Huzaifa <span class="text-teal-600">Islam</span></h1>
-        <p class="max-w-2xl mx-auto text-slate-600 text-lg">Tech-forward student deep-diving into networking & cybersecurity at AIUB.</p>
+    <section class="py-24 px-6 text-center bg-white">
+        <img src="profile.jpg" alt="Huzaifa" class="w-44 h-44 rounded-full mx-auto border-4 border-blue-600 mb-8 object-cover shadow-xl">
+        <p class="text-blue-600 font-semibold mb-3 border border-blue-200 inline-block px-5 py-2 rounded-full text-sm">Professional Cybersecurity Specialist</p>
+        <h1 class="text-6xl font-extrabold text-slate-950 mb-5 uppercase tracking-tighter">Huzaifa <span class="text-teal-600">Islam</span></h1>
+        <p class="max-w-3xl mx-auto text-slate-700 text-xl leading-relaxed mb-12">
+            A dedicated professional in networking & cybersecurity from AIUB. Passionate about building robust security infrastructures, anticipating threats, and creating secure systems.
+        </p>
         
-        <div class="mt-10 space-x-4">
-            <a href="cv.pdf" target="_blank" class="bg-teal-700 text-white px-8 py-3 rounded-lg font-semibold">Download CV</a>
-            <a href="#contact" class="border border-slate-300 px-8 py-3 rounded-lg font-semibold">Get in Touch</a>
+        <div class="mt-10 space-x-6 flex items-center justify-center">
+            <a href="cv.pdf" target="_blank" class="bg-blue-700 text-white px-9 py-4 rounded-xl font-semibold hover:bg-blue-800 transition flex items-center gap-3 shadow-md">
+                <i class="fas fa-file-pdf text-red-500"></i> Download Professional CV
+            </a>
+            <a href="#contact" class="border-2 border-slate-300 px-9 py-4 rounded-xl font-semibold hover:bg-slate-100 transition shadow-sm">Get in Touch</a>
         </div>
     </section>
 
-    <section id="about" class="py-16 px-6 max-w-5xl mx-auto">
-        <div class="bg-white rounded-2xl shadow-lg overflow-hidden md:flex">
+    <section id="skills" class="py-20 bg-slate-100 px-6">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-extrabold text-center mb-16 text-slate-950 tracking-tight">Skill & <span class="text-teal-600">Expertise</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-slate-100 transform hover:scale-105 transition-all duration-300">
+                    <i class="fas fa-shield-alt text-blue-600 text-3xl mb-5"></i>
+                    <h3 class="font-bold text-xl mb-3">Cybersecurity & Ethical Hacking</h3>
+                    <p class="text-slate-600 text-base leading-relaxed">Identifying and exploiting system vulnerabilities to strengthen defenses.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-slate-100 transform hover:scale-105 transition-all duration-300">
+                    <i class="fas fa-bug text-teal-600 text-3xl mb-5"></i>
+                    <h3 class="font-bold text-xl mb-3">Penetration Testing (Web, Network)</h3>
+                    <p class="text-slate-600 text-base leading-relaxed">Systematic security evaluation through simulated attacks on various platforms.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-slate-100 transform hover:scale-105 transition-all duration-300">
+                    <i class="fas fa-search text-orange-600 text-3xl mb-5"></i>
+                    <h3 class="font-bold text-xl mb-3">Vulnerability Assessment</h3>
+                    <p class="text-slate-600 text-base leading-relaxed">Comprehensive identification, classification, and mitigation of potential security risks.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-slate-100 transform hover:scale-105 transition-all duration-300">
+                    <i class="fas fa-exclamation-triangle text-purple-600 text-3xl mb-5"></i>
+                    <h3 class="font-bold text-xl mb-3">OWASP Top 10 Risks</h3>
+                    <p class="text-slate-600 text-base leading-relaxed">Deep understanding and mitigation strategies for web application security threats.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-slate-100 transform hover:scale-105 transition-all duration-300">
+                    <i class="fas fa-brain text-pink-600 text-3xl mb-5"></i>
+                    <h3 class="font-bold text-xl mb-3">Risk Analysis & Threat Modeling</h3>
+                    <p class="text-slate-600 text-base leading-relaxed">Analyzing system security architecture to prevent and neutralize potential security risks.</p>
+                </div>
+                 <div class="bg-white p-8 rounded-2xl shadow-lg border border-slate-100 transform hover:scale-105 transition-all duration-300">
+                    <i class="fas fa-wrench text-amber-600 text-3xl mb-5"></i>
+                    <h3 class="font-bold text-xl mb-3">Tools & Platforms</h3>
+                    <p class="text-slate-600 text-base leading-relaxed">Expertise in using tools like Kali Linux, Nmap, Burp Suite, Wireshark, Nessus, Metasploit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 bg-white px-6">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-extrabold text-center mb-16 text-slate-950 tracking-tight">Featured <span class="text-teal-600">Projects</span></h2>
+            
+            <div class="bg-slate-50 rounded-3xl p-10 shadow-lg border border-slate-100 mb-12 flex items-center gap-10">
+                <div class="w-1/3 text-center">
+                    <i class="fas fa-code-branch text-blue-600 text-9xl"></i>
+                </div>
+                <div class="w-2/3">
+                    <h3 class="text-3xl font-bold text-slate-950 mb-3">AI-Powered Network Intrusion Detection System</h3>
+                    <p class="text-blue-600 font-semibold mb-5 italic">Python | Machine Learning | Security Informatics</p>
+                    <p class="text-slate-700 text-lg leading-relaxed mb-6">
+                        An advanced security system that uses a combination of deep learning algorithms and security principles to detect network intrusion attempts. This project is part of my larger goal to make network systems safer from any security risks.
+                    </p>
+                    <a href="https://github.com/yourusername/NIDS" target="_blank" class="text-teal-700 font-bold text-base flex items-center gap-2 hover:text-teal-800 transition">
+                        <i class="fab fa-github"></i> View Project on GitHub
+                    </a>
+                </div>
+            </div>
+
+            <div class="bg-slate-50 rounded-3xl p-10 shadow-lg border border-slate-100 flex items-center gap-10">
+                <div class="w-1/3 text-center">
+                    <i class="fas fa-user-secret text-blue-600 text-9xl"></i>
+                </div>
+                <div class="w-2/3">
+                    <h3 class="text-3xl font-bold text-slate-950 mb-3">Enterprise Secure File Transfer Protocol (E-SFTP)</h3>
+                    <p class="text-blue-600 font-semibold mb-5 italic">Java | Encryption | Networking</p>
+                    <p class="text-slate-700 text-lg leading-relaxed mb-6">
+                        A protocol based on the principles of cybersecurity and networking that uses end-to-end encryption to safely transfer files. The project is focused on creating a secure solution for file transfers between two systems.
+                    </p>
+                    <a href="https://github.com/yourusername/E-SFTP" target="_blank" class="text-teal-700 font-bold text-base flex items-center gap-2 hover:text-teal-800 transition">
+                        <i class="fab fa-github"></i> View Project on GitHub
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="experience" class="py-20 bg-slate-100 px-6">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-extrabold text-center mb-16 text-slate-950 tracking-tight">Professional <span class="text-teal-600">Experience</span></h2>
+            
+            <div class="bg-white rounded-3xl shadow-xl border border-slate-100 overflow-hidden md:flex mb-12 transform hover:scale-[1.02] transition-all duration-300">
+                <div class="md:w-2/5">
+                    <img src="exp_image_1.jpg" class="w-full h-full object-cover" alt="Cybersecurity Experience Image">
+                </div>
+                <div class="p-12 md:w-3/5">
+                    <h3 class="text-blue-600 font-bold text-base mb-2 italic flex items-center gap-2">
+                        <i class="fas fa-briefcase"></i> Experience
+                    </h3>
+                    <h2 class="text-3xl font-bold text-slate-950 mb-2">Cybersecurity Specialist & Analyst</h2>
+                    <p class="text-slate-600 font-semibold text-lg">SecureGlobal Solutions Ltd. · 2 Years (Jan 2024 - Present)</p>
+                    <ul class="space-y-4 mt-8 text-slate-700 text-lg leading-relaxed">
+                        <li><i class="fas fa-check-circle text-teal-500 mr-2"></i> Responsible for conducting vulnerability scans on enterprise web applications and network devices to minimize any security risks.</li>
+                        <li><i class="fas fa-check-circle text-teal-500 mr-2"></i> Leading penetration testing and comprehensive security assessments to improve our system security posture.</li>
+                        <li><i class="fas fa-check-circle text-teal-500 mr-2"></i> Collaborating with the developers and IT team to quickly fix identified vulnerabilities in order to keep our system secure and protected against any future security threats.</li>
+                        <li><i class="fas fa-check-circle text-teal-500 mr-2"></i> Preparing detailed reports on security incidents and mitigation strategies to reduce security risks.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-3xl shadow-xl border border-slate-100 overflow-hidden md:flex transform hover:scale-[1.02] transition-all duration-300">
+                <div class="md:w-2/5">
+                    <img src="exp_image_2.jpg" class="w-full h-full object-cover" alt="Networking & Security Analyst Experience Image">
+                </div>
+                <div class="p-12 md:w-3/5">
+                    <h3 class="text-blue-600 font-bold text-base mb-2 italic flex items-center gap-2">
+                        <i class="fas fa-briefcase"></i> Experience
+                    </h3>
+                    <h2 class="text-3xl font-bold text-slate-950 mb-2">Networking & Security Analyst</h2>
+                    <p class="text-slate-600 font-semibold text-lg">TechCorp Solutions Pvt. Ltd. · 1 Year (Jan 2023 - Dec 2023)</p>
+                    <ul class="space-y-4 mt-8 text-slate-700 text-lg leading-relaxed">
+                        <li><i class="fas fa-check-circle text-teal-500 mr-2"></i> Led the implementation of network segmentation, firewalls, and intrusion detection systems to maximize system protection.</li>
+                        <li><i class="fas fa-check-circle text-teal-500 mr-2"></i> Managed security logs from multiple systems and analyzed network traffic to provide real-time updates of our system security.</li>
+                        <li><i class="fas fa-check-circle text-teal-500 mr-2"></i> Assisted in various other cybersecurity and networking projects aimed at improving our overall security architecture and creating robust solutions to mitigate security risks.</li>
+                        <li><i class="fas fa-check-circle text-teal-500 mr-2"></i> Mentored junior analysts on cybersecurity and networking principles.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="about" class="py-20 px-6 max-w-5xl mx-auto">
+        <div class="bg-white rounded-3xl shadow-2xl border border-slate-100 overflow-hidden md:flex transform hover:scale-[1.02] transition-all duration-300">
             <div class="md:w-1/2">
-                <img src="university.jpg" class="w-full h-full object-cover" alt="AIUB">
+                <img src="university.jpg" class="w-full h-full object-cover" alt="AIUB Campus">
             </div>
-            <div class="p-10 md:w-1/2">
-                <h3 class="text-blue-600 font-bold mb-4 italic">Education</h3>
-                <h2 class="text-3xl font-bold text-slate-900 mb-2">BSc in Computer Networking & Cyber Security</h2>
-                <p class="text-slate-600">American International University-Bangladesh</p>
-                <p class="text-slate-400 mt-2">Expected Graduation: 2028</p>
+            <div class="p-12 md:w-1/2">
+                <h3 class="text-blue-600 font-bold mb-4 flex items-center gap-2">
+                    <i class="fas fa-graduation-cap"></i> Education
+                </h3>
+                <h2 class="text-4xl font-bold text-slate-950 mb-2">BSc in Computer Networking & Cyber Security</h2>
+                <p class="text-slate-700 text-lg">American International University-Bangladesh</p>
+                <p class="text-slate-400 mt-3 font-semibold text-base">Expected Graduation: 2028</p>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="py-20 px-6 bg-slate-900 text-white text-center">
-        <h2 class="text-4xl font-bold mb-10">Let’s <span class="text-teal-400">Connect</span></h2>
-        <div class="max-w-md mx-auto space-y-4 text-lg">
-            <div class="bg-slate-800 p-4 rounded-lg flex items-center justify-center gap-4">
+    <section id="contact" class="py-24 px-6 bg-slate-950 text-white text-center">
+        <h2 class="text-5xl font-extrabold mb-12 tracking-tight">Let’s <span class="text-teal-400">Connect</span></h2>
+        <p class="text-slate-400 max-w-2xl mx-auto mb-16 text-lg leading-relaxed">Interested in collaboration or just want to chat about hacking? Reach out!</p>
+        <div class="max-w-xl mx-auto space-y-6 text-xl">
+            <div class="bg-slate-800 p-6 rounded-2xl flex items-center justify-center gap-4 shadow-lg">
                 <i class="fas fa-envelope text-teal-400"></i>
                 <span>huzaifaislam@gamil.com</span>
             </div>
-            <div class="bg-slate-800 p-4 rounded-lg flex items-center justify-center gap-4">
+            <div class="bg-slate-800 p-6 rounded-2xl flex items-center justify-center gap-4 shadow-lg">
                 <i class="fas fa-phone text-teal-400"></i>
                 <span>01304433601</span>
             </div>
         </div>
     </section>
+
+    <footer class="py-12 text-center text-slate-600 bg-white text-base">
+        © 2026 Huzaifa Islam | Built for Security
+    </footer>
 
 </body>
 </html>
